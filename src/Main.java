@@ -8,15 +8,15 @@ public class Main {
         float length = 23.4f;
         double quality = 99.9;
         System.out.println("Значение переменной cheese с типом int равно " + cheese);
-        System.out.println("Значение переменной cheese с типом byte равно " + holes);
-        System.out.println("Значение переменной cheese с типом short равно " + tomatoes);
-        System.out.println("Значение переменной cheese с типом long равно " + pigs);
-        System.out.println("Значение переменной cheese с типом float равно " + length);
-        System.out.println("Значение переменной cheese с типом double равно " + quality);
+        System.out.println("Значение переменной holes с типом byte равно " + holes);
+        System.out.println("Значение переменной tomatoes с типом short равно " + tomatoes);
+        System.out.println("Значение переменной pigs с типом long равно " + pigs);
+        System.out.println("Значение переменной length с типом float равно " + length);
+        System.out.println("Значение переменной quality с типом double равно " + quality);
         //задача 2
         float a = 27.12f;
         long b = 987678965549L;
-        String c = "2,786";
+        float c = 2.786f;
         short d = 569;
         short e = -159;
         int f = 27897;
@@ -62,13 +62,13 @@ public class Main {
         System.out.println("Спортсмен на завтрак съедает " + weightBreakfast + " грамм или " + weightBreakfastKg + " килограмм пищи");
 
         //задача 7
-        byte purpose = 7;
-        short minLost = 250;
-        short maxLost = 500;
-        int maxDays = purpose * gramInKg / minLost;
-        int minDays = purpose * gramInKg / maxLost;
-        int averageDays = (maxDays + minDays) / 2;
-        System.out.println("Максимальное количесство дней для похудения " + maxDays + ", наименьщее " + minDays + ". В среднем спортсмен похудеет за " + averageDays + " день.");
+        byte purposeWeightLossKg = 7;
+        short minLostGrPerDay = 250;
+        short GrPerDay = 500;
+        int maxDaysForWeightLoss = purposeWeightLossKg * gramInKg / minLostGrPerDay;
+        int minDaysForWeightLoss = purposeWeightLossKg * gramInKg / GrPerDay;
+        int averageDaysForWeightLoss = (maxDaysForWeightLoss + minDaysForWeightLoss) / 2;
+        System.out.println("Максимальное количесство дней для похудения " + maxDaysForWeightLoss + ", наименьщее " + minDaysForWeightLoss + ". В среднем спортсмен похудеет за " + averageDaysForWeightLoss + " день.");
 
         //задача 8
         float salaryGrowth = (10f + 100f) / 100;
